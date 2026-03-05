@@ -15,6 +15,7 @@ PowerShell scripts for cloud security operations, incident response, and Microso
 - `Sentinel` – Managing analytic rules, exporting/importing content, bulk updates.
 - `Defender` – Device isolation, AV scans, IOC submission.
 - `Graph` – Microsoft Graph helpers for Entra ID and M365 investigations.
+- - "DNS-Resolution" – Parallel IP-to-hostname resolver with PTR lookup, forward validation, and colorized output (PS 5.1/7+ compatible).
 
 ## Example script ideas
 
@@ -22,6 +23,7 @@ PowerShell scripts for cloud security operations, incident response, and Microso
 - `Sentinel/Export-AnalyticRules.ps1` – Export analytic rules as JSON.
 - `Defender/Invoke-IsolateDevice.ps1` – Isolate a device via Defender for Endpoint.
 - `Graph/Get-SuspiciousSignins.ps1` – List risky sign-ins for investigation.
+- "DNS-Resolution/Resolve-IPs-Parallel-v3.ps1" – Bulk IP-to-hostname resolution with PTR validation, forward matching, and parallel execution support.
 
 Each script should include:
 
